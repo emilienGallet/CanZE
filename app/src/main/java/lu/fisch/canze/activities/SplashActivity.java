@@ -36,7 +36,7 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         // Crashlytics
-        if (BuildConfig.BRANCH.equals("master")) FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true);
+        //if (BuildConfig.BRANCH.equals("master")) FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true);
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
